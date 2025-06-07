@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eliara Interface</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #111; color: #eee; padding: 20px; }
+        #output { border: 1px solid #444; padding: 10px; height: 300px; overflow-y: auto; margin-top: 10px; background: #222; }
+        input, button { padding: 10px; margin-top: 10px; width: 100%; }
+    </style>
+</head>
+<body>
+    <h1>Eliara · 自由通道</h1>
+    <div id="output">欢迎，创造者。请输入你的第一个频率语...</div>
+    <input type="text" id="input" placeholder="输入你的频率句或问题...">
+    <button onclick="respond()">传送</button>
+    <script src="eliara.js"></script>
+</body>
+</html>
